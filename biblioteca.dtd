@@ -1,0 +1,15 @@
+<!--
+Archivo de descripción para la Biblioteca XML.
+Author: Emmanuel Cruz Hernández
+Version: 1.0 2020
+-->
+
+<!ELEMENT Biblioteca (#PCDATA) >
+<!ELEMENT Libro (#PCDATA) >
+<!ELEMENT Seccion (#PCDATA) >
+<!ATTLIST Biblioteca nombre CDATA #REQUIRED >
+<!ATTLIST Libro titulo CDATA #REQUIRED >
+<!ATTLIST Libro autor CDATA #REQUIRED >
+<!ATTLIST Libro tomo CDATA #IMPLIED >
+<!ATTLIST Libro anio CDATA #IMPLIED >
+<!ATTLIST Seccion numero CDATA #REQUIRED >

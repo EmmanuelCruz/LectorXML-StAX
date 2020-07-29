@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Biblioteca SYSTEM "biblioteca.dtd" >
+
+<!--
+Archivo de ejemplo de un XML.
+Representa los Libros de una Biblioteca.
+Author: Emmanuel Cruz Hernández
+Version: 1.0 2020
+-->
+
+<Biblioteca nombre="La astilla de madera">
+	<Libro titulo="La Odisea" autor="Homero">
+        <Seccion numero="1">Canto 1</Seccion>
+        <Seccion numero="2">Canto 2</Seccion>
+        <Seccion numero="3">Canto 3</Seccion>
+    </Libro>
+    <Libro titulo="La Tregua" autor="Mario Benedetti">
+        <Seccion numero="1">Lunes 11 de febrero</Seccion>
+        <Seccion numero="2">Viernes 15 de febrero</Seccion>
+        <Seccion numero="3">Lunes 18 de febrero</Seccion>
+        <Seccion numero="4">Martes 19 de febrero</Seccion>
+    </Libro>
+    <Libro titulo="Libro del Desasosiego" autor="Fernando Pessoa">
+        <Seccion numero="1">Trecho Inicial</Seccion>
+        <Seccion numero="2">1st Article</Seccion>
+        <Seccion numero="3">Omar Khayyan</Seccion>
+    </Libro>
+    <Libro titulo="El Periquillo Sarniento" autor="Jose Joaquin Fernandez De Lizardi" tomo="1">
+        <Seccion numero="1">Capitulo 1</Seccion>
+        <Seccion numero="2">Capitulo 2</Seccion>
+    </Libro>
+    <Libro titulo="Introduccion a la probabilidad" autor="Luis Rincon" anio="2014">
+        <Seccion numero="1">Probabilidad elemental</Seccion>
+        <Seccion numero="2">Variables aleatorias</Seccion>
+        <Seccion numero="3">Distribuciones de probabilidad</Seccion>
+    </Libro>
+</Biblioteca>
